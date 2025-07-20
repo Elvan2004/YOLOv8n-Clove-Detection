@@ -4,12 +4,7 @@
 2. Place the cengkeh.sh and best.onnx file in your folder
 3. Open and edit the cengkeh.sh based on your directory
 
-#!/bin/bash
-cd /home/pbl-if44/Downloads/Python-3.8.18 # virtual environment directory
-source yolov8-env/bin/activate # enter virtual environment
-yolo task=detect mode=predict model=runs/detect/train/weights/best.onnx source=0 show=True save=False
-                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                                    set this to your best.onnx path
+<img width="1122" height="187" alt="image" src="https://github.com/user-attachments/assets/928a942c-9082-4815-b779-904526b45831" />
 
 4. Copy the cengkeh.sh path
 5. Connect your WebCam and Open Terminal
