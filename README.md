@@ -18,4 +18,5 @@ yolo task=detect mode=predict model=runs/detect/train/weights/best.onnx source=0
 ![Run File on Terminal](https://github.com/user-attachments/assets/1902685f-d7ba-4542-9b2c-d0fab119bb73)
 
 7. Result
+
 ![Result](https://github.com/user-attachments/assets/cdad312f-b68b-4307-8768-3775bdfdb712)
